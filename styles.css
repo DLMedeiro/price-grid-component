@@ -1,0 +1,48 @@
+/* Colors */
+:root{
+    --background: #e6eff6;
+    --light: #fff;
+    --dark: hsl(218, 22%, 67%);
+    --accent1: hsl(179, 62%, 43%);
+    --accent2: #4abebd;
+    --accent3: hsl(71, 73%, 54%);
+    --accent4: #71ced0;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    background-color: var(--background);
+    /* - Weights: 400, 700 */
+}
+
+.background-light{
+    background-color: var(--light);
+}
+.background-accent1{
+    background-color: var(--accent1);
+}
+.background-accent2{
+    background-color: var(--accent2);
+}
+.text-accent1{
+    color: var(--accent1);
+}
+.text-accent2{
+    color: var(--accent2);
+}
+.text-accent3{
+    color: var(--accent3);
+}
+.text-accent4{
+    color: var(--accent4);
+}
+.text-dark{
+    color: var(--dark);
+}
+.text-light{
+    color: var(--light);
+}
